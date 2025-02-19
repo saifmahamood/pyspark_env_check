@@ -3,6 +3,7 @@ name = "pyspark-template"
 version = "0.1.0"
 description = "PySpark template project with Poetry"
 authors = ["Your Name <your.email@example.com>"]
+packages = [{include = "spark_jobs"}]
 license = "MIT"
 
 [tool.poetry.dependencies]
